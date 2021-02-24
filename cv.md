@@ -15,3 +15,31 @@
    * Purposefulness 
    * Industriousness
    * Tolerance
+   # **Skills:**
+  * Cook (30%)
+  * Build (20%) 
+  * Electricity (40%)
+  * IT (3%)
+   * Basic JS
+   * Basic HTML
+   * Basic CSS
+   * Basic GIT
+## **Code:**
+  ### Find the average value of the numbers:
+```
+  function getAverage(marks){
+    var sum = 0;
+    for(var i = 0; i < marks.length; i++){
+      sum += marks[i];}
+    const middleBall = sum / (marks.length);
+    return Math.floor(middleBall);
+  };
+```   
+## **Work experience**
+ \-
+## **Aducation:**
+   * High school
+   * Brest railway colledge
+   * Incomplete higher education
+   * English courses A2
+## **English level: A2**
