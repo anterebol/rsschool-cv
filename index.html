@@ -3,42 +3,76 @@
 <head>
 <meta charset="utf-8">
 <title>Resume</title>
-<link rel="stylesheet" type="text/css" href="styleresume.css">
+<link rel="stylesheet" type="text/css">
 </head>
 <style>
-.container {
-  div.container4 {
-    height: 10em;
-    position: relative }
-div.container4 p {
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
+  .container {
+    padding-right: 15px;
+        margin: auto;
+      max-width: max-content;
+    background: whitesmoke;
+}
+ img  {
+   padding-left: 20px;
+  width: 120px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.card {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+  display: inline-block;
+}
+.cardi {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 11px;
+  display: inline-block;
+}
+.contacts {
+  padding-bottom: 50px ;
+  text-align: center;
+  font-size: 14px;
+display: block;
+}
+.skills h2 {
+ text-align: center;
+}
+footer {
+  padding-right: 15px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 20px;
+  margin: auto;
 }
 </style>
 <body>
   <div class='container'>
-  <h1><strong>ALEKSEI GORBACH</strong></h1>
-  <hr>
-<h2><strong>Contacts:</strong></h2>
+    <div class="card">
+      <img src="foto.jpg" alt="foto"> 
+      <div class="contacts">
+    <h2><strong>Contacts:</strong></h2>
+<h3>Phone number:</h3>
+<p>+375336258442 (MTS)</p>
+<h3>MAIL:</h3>
+<p>anterebol@gmail.com</p>
+<h3>Instagram:</h3>
+<p><a href="https://www.instagram.com/alex_festern/">alex_festern</a></p>
+</div>
+    <div class="skills">
+<h2>Skills:</h2>
 <ul>
-<li><h3>Phone number:</h3>
-<ul><li>+375336258442 (MTS)</li>
-</ul>
-</li>
-<li><h3>MAIL:</h3>
-<ul>
-<li>anterebol@gmail.com</li>
-</ul>
-</li>
-<li><h3>Instagram:</h3>
-<ul>
-<li><a href="https://www.instagram.com/alex_festern/">alex_festern</a></li>
-</ul>
-</li>
-</ul>
+<li>Basic JS</li>
+<li>Basic HTML</li>
+<li>Basic CSS</li>
+<li>Basic GIT</li>
+</ul></div></div>
+      <div class="cardi">
+  <h1>ALEKSEI GORBACH</h1>
+  <p>Age: 24</p>
+  <p>Country: Belarus</p>
 <h1><strong>Short information</strong></h1>
 <p>I from Belarus, live in Minsk. Now I'm work in Subway (Metro).<br>
 I never meet with Development, but rigt now I want to do this.<br>
@@ -49,21 +83,9 @@ I Like learn anuthing new and interesting.</p>
 <li>Industriousness</li>
 <li>Tolerance</li>
 </ul>
-<h1><strong>Skills:</strong></h1>
-<ul>
-<li>Cook (30%)</li>
-<li>Build (20%)</li>
-<li>Electricity (40%)</li>
-<li>IT (3%)</li>
-<li>Basic JS</li>
-<li>Basic HTML</li>
-<li>Basic CSS</li>
-<li>Basic GIT</li>
-</ul>
 <h2><strong>Code:</strong></h2>
 <h4>Find the average value of the numbers:</h4>
-<pre><code>
-function getAverage(marks){
+<pre><code>function getAverage(marks){
 var sum = 0;
 for(var i = 0; i &lt; marks.length; i++){
 sum += marks[i];}
@@ -80,7 +102,11 @@ return Math.floor(middleBall);
 <li>Incomplete higher education</li>
 <li>English courses A2</li>
 </ul>
-<h2><strong>English level: A2</strong></h2><!DOCTYPE html>
+<h2><strong>English level: A2</strong></h2>
+</div>
+<footer>
+  <h5>Create: Aleksei Gorbach</h1>
+</footer>
   </div>
 </body>
 </html>
