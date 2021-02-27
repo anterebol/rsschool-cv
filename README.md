@@ -1,1 +1,1 @@
-https://github.com/anterebol/rsschool-cv/blob/rsschool-cv-html/index.html
+https://anterebol.github.io/rsschool-cv/
